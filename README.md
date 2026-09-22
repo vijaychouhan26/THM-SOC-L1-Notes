@@ -17,7 +17,7 @@ I am documenting the path module by module — concepts, key terms, practical ob
 | 1 | Blue Team Introduction | ✅ Complete | [Open Module 1](./Module%201/README.md) |
 | 2 | SOC Team Internals | ✅ Complete | [Open Module 2](./Module%202/README.md) |
 | 3 | Core SOC Solutions | ✅ Complete | [Open Module 3](./Module%203/README.md) |
-| 4 | Cyber Defence Frameworks | ⏳ Upcoming | Coming soon |
+| 4 | Cyber Defence Frameworks | ✅ Complete | [Open Module 4](./Module%204/README.md) |
 | 5 | Phishing Analysis | ⏳ Upcoming | Coming soon |
 | 6 | Network Traffic Analysis | ⏳ Upcoming | Coming soon |
 | 7 | Network Security Monitoring | ⏳ Upcoming | Coming soon |
