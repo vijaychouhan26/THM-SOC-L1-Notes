@@ -18,11 +18,11 @@ I am documenting the path module by module — concepts, key terms, practical ob
 | 2 | SOC Team Internals | ✅ Complete | [Open Module 2](./Module%202/README.md) |
 | 3 | Core SOC Solutions | ✅ Complete | [Open Module 3](./Module%203/README.md) |
 | 4 | Cyber Defence Frameworks | ✅ Complete | [Open Module 4](./Module%204/README.md) |
-| 5 | Phishing Analysis | ⏳ Upcoming | Coming soon |
-| 6 | Network Traffic Analysis | ⏳ Upcoming | Coming soon |
-| 7 | Network Security Monitoring | ⏳ Upcoming | Coming soon |
-| 8 | Web Security Monitoring | ⏳ Upcoming | Coming soon |
-| 9 | Windows Security Monitoring | ⏳ Upcoming | Coming soon |
+| 5 | Phishing Analysis | ✅ Complete (study notes) | [Open Module 5](./Module%205/README.md) |
+| 6 | Network Traffic Analysis | ✅ Complete (study notes) | [Open Module 6](./Module%206/README.md) |
+| 7 | Network Security Monitoring | ✅ Complete (study notes) | [Open Module 7](./Module%207/README.md) |
+| 8 | Web Security Monitoring | ✅ Complete (study notes) | [Open Module 8](./Module%208/README.md) |
+| 9 | Windows Security Monitoring | 🔄 In Progress | Practical learning underway |
 | 10 | Linux Security Monitoring | ⏳ Upcoming | Coming soon |
 | 11 | Malware Concepts for SOC | ⏳ Upcoming | Coming soon |
 | 12 | Threat Analysis Tools | ⏳ Upcoming | Coming soon |
@@ -61,7 +61,13 @@ THM-SOC-L1-Notes/
 │   ├── 14-elastic-stack-the-basics.md
 │   └── 15-introduction-to-soar.md
 │
-└── ...
+├── Module 3/ ...
+├── Module 4/ ...
+├── Module 5/ README.md + phishing analysis notes
+├── Module 6/ README.md + network traffic notes
+├── Module 7/ README.md + network security monitoring notes
+├── Module 8/ README.md + web security monitoring notes
+└── Module 9/ (in progress; not documented yet)
 ```
 
 Each module has its own `README.md` containing the module overview and links to the individual room notes.
