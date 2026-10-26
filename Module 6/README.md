@@ -1,15 +1,34 @@
 # Module 6 — Network Traffic Analysis
 
-**Progress:** Completed, as reported by the learner.  
-**Documentation:** Concept and SOC investigation notes; exact THM room names and personal findings need verification.
+Learning how to capture, filter and interpret network packets and extract artifacts useful for SOC alert investigations.
 
-## Notes
+---
 
-- [Network Traffic Fundamentals](./26-network-traffic-fundamentals.md)
-- [Wireshark Basics](./27-wireshark-basics.md)
-- [Wireshark Investigation](./28-wireshark-investigation.md)
-- [NetworkMiner and Network Forensics](./29-networkminer.md)
+## Rooms in This Module
 
-## Portfolio Evidence to Add
+| # | Room | Notes |
+|---|---|---|
+| 29 | Network Traffic Basics | [View](./29-network-traffic-basics.md) |
+| 30 | Wireshark: The Basics | [View](./30-wireshark-the-basics.md) |
+| 31 | Wireshark: Packet Operations | [View](./31-wireshark-packet-operations.md) |
+| 32 | Wireshark: Traffic Analysis | [View](./32-wireshark-traffic-analysis.md) |
+| 33 | NetworkMiner | [View](./33-networkminer.md) |
 
-For each completed room, attach sanitized observations, actual queries, a timeline, the verdict, and the reason for escalation or closure. Avoid publishing credentials or challenge flags.
+---
+
+## Module Summary
+
+This module develops the ability to interpret packet and flow evidence with Wireshark and NetworkMiner, reconstruct conversations and distinguish suspicious patterns from legitimate operations.
+
+---
+
+## Skills Covered
+
+- Network traffic analysis and the TCP/IP model
+- Packet capture versus flow metadata
+- Wireshark display filters and protocol inspection
+- TCP stream reconstruction and network conversations
+- Reconnaissance, ARP, DNS and ICMP anomaly detection
+- NetworkMiner artifact extraction and verification
+
+> These are original room-based study notes. Hands-on challenge results and personal investigation evidence should be added only from verified lab activity.
