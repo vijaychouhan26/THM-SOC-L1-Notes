@@ -1,33 +1,33 @@
 # TryHackMe — SOC Level 1 Notes
 
-Personal notes and write-ups from my TryHackMe SOC Level 1 learning path.
+Personal notes and room-by-room write-ups from my TryHackMe SOC Level 1 learning path.
 
-I am documenting the path module by module — concepts, key terms, practical observations, investigation workflows, and real-world connections.
+I am documenting the path module by module — concepts, key terms, practical investigation workflows, useful commands, and real-world SOC connections.
 
 > **Path:** [TryHackMe SOC Level 1](https://tryhackme.com/path/outline/blueteam)  
 > **Started:** September 2026  
-> **Status:** In Progress
+> **Current Progress:** Completed Modules 1–8; studying Windows Security Monitoring (Module 9).
 
 ---
 
 ## Progress Tracker
 
-| # | Module | Status | Notes |
+| # | Module | Learning Status | Room Notes |
 |---|---|---|---|
 | 1 | Blue Team Introduction | ✅ Complete | [Open Module 1](./Module%201/README.md) |
 | 2 | SOC Team Internals | ✅ Complete | [Open Module 2](./Module%202/README.md) |
 | 3 | Core SOC Solutions | ✅ Complete | [Open Module 3](./Module%203/README.md) |
 | 4 | Cyber Defence Frameworks | ✅ Complete | [Open Module 4](./Module%204/README.md) |
-| 5 | Phishing Analysis | ✅ Complete (study notes) | [Open Module 5](./Module%205/README.md) |
-| 6 | Network Traffic Analysis | ✅ Complete (study notes) | [Open Module 6](./Module%206/README.md) |
-| 7 | Network Security Monitoring | ✅ Complete (study notes) | [Open Module 7](./Module%207/README.md) |
-| 8 | Web Security Monitoring | ✅ Complete (study notes) | [Open Module 8](./Module%208/README.md) |
-| 9 | Windows Security Monitoring | 🔄 In Progress | Practical learning underway |
-| 10 | Linux Security Monitoring | ⏳ Upcoming | Coming soon |
-| 11 | Malware Concepts for SOC | ⏳ Upcoming | Coming soon |
-| 12 | Threat Analysis Tools | ⏳ Upcoming | Coming soon |
-| 13 | SIEM Triage for SOC | ⏳ Upcoming | Coming soon |
-| 14 | SOC Level 1 Capstone Challenges | ⏳ Upcoming | Coming soon |
+| 5 | Phishing Analysis | ✅ Complete | [Open Module 5](./Module%205/README.md) |
+| 6 | Network Traffic Analysis | ✅ Complete | [Open Module 6](./Module%206/README.md) |
+| 7 | Network Security Monitoring | ✅ Complete | [Open Module 7](./Module%207/README.md) |
+| 8 | Web Security Monitoring | ✅ Complete | [Open Module 8](./Module%208/README.md) |
+| 9 | Windows Security Monitoring | 🔄 In progress | Notes to follow |
+| 10 | Linux Security Monitoring | ⏳ Upcoming | — |
+| 11 | Malware Concepts for SOC | ⏳ Upcoming | — |
+| 12 | Threat Analysis Tools | ⏳ Upcoming | — |
+| 13 | SIEM Triage for SOC | ⏳ Upcoming | — |
+| 14 | SOC Level 1 Capstone Challenges | ⏳ Upcoming | — |
 
 ---
 
@@ -35,50 +35,28 @@ I am documenting the path module by module — concepts, key terms, practical ob
 
 ```text
 THM-SOC-L1-Notes/
-│
-├── README.md                         # Main index for the complete path
-│
-├── Module 1/
-│   ├── README.md
-│   ├── 01-junior-analyst-intro.md
-│   ├── 02-soc-role-blue-team.md
-│   ├── 03-humans-as-attack-vectors.md
-│   └── 04-systems-as-attack-vectors.md
-│
-├── Module 2/
-│   ├── README.md
-│   ├── 05-soc-l1-alert-triage.md
-│   ├── 06-soc-l1-alert-reporting.md
-│   ├── 07-soc-workbooks-lookups.md
-│   ├── 08-soc-metrics-objectives.md
-│   └── 09-introduction-to-phishing.md
-│
-├── Module 3/
-│   ├── README.md
-│   ├── 11-introduction-to-edr.md
-│   ├── 12-introduction-to-siem.md
-│   ├── 13-splunk-the-basics.md
-│   ├── 14-elastic-stack-the-basics.md
-│   └── 15-introduction-to-soar.md
-│
-├── Module 3/ ...
-├── Module 4/ ...
-├── Module 5/ README.md + phishing analysis notes
-├── Module 6/ README.md + network traffic notes
-├── Module 7/ README.md + network security monitoring notes
-├── Module 8/ README.md + web security monitoring notes
-└── Module 9/ (in progress; not documented yet)
+├── README.md
+├── Module 1/               # Blue Team Introduction: 4 room notes
+├── Module 2/               # SOC Team Internals: 5 room notes
+├── Module 3/               # Core SOC Solutions: 5 room notes
+├── Module 4/               # Cyber Defence Frameworks: 6 room notes
+├── Module 5/               # Phishing Analysis: 7 room notes (22–28)
+├── Module 6/               # Network Traffic Analysis: 5 room notes (29–33)
+├── Module 7/               # Network Security Monitoring: 6 room notes (34–39)
+└── Module 8/               # Web Security Monitoring: 5 room notes (40–44)
 ```
 
-Each module has its own `README.md` containing the module overview and links to the individual room notes.
+Each module contains a `README.md` with an ordered table of rooms and links to individual notes. Each room file covers technical concepts, defensive investigation, useful tables or commands, key terms and an analyst takeaway.
+
+> **Evidence note:** Learning progress is self-reported. Conceptual explanations and example queries are study references, not proof that a specific alert was investigated or a lab command was executed. Hands-on case evidence will be added from verified, sanitized personal labs. Challenge answers, flags and screenshots are not fabricated.
 
 ---
 
 ## What I'm Building
 
-I'm building both offensive and defensive cybersecurity skills. This repository focuses on the defensive side of my learning — understanding how SOC teams monitor, detect, triage, investigate, and respond to threats.
+I'm developing defensive cybersecurity skills for entry-level SOC analyst work: alert triage, phishing investigation, network traffic analysis, intrusion detection, log review, incident documentation and escalation.
 
-The goal is to keep these notes practical, organized, and useful as a long-term reference rather than simply collecting room answers.
+The goal is a practical, organized reference that demonstrates how to reason through an investigation rather than only collecting room answers.
 
 ---
 
