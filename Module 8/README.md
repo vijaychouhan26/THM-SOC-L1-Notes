@@ -1,16 +1,34 @@
 # Module 8 — Web Security Monitoring
 
-**Progress:** Completed, as reported by the learner.  
-**Documentation:** Concept and SOC investigation notes; exact THM room names and personal findings need verification.
+This module teaches defenders to interpret HTTP and server-side evidence to identify attempted web exploitation, malicious uploads, web shells and denial-of-service activity.
 
-## Notes
+---
 
-- [Web Security Monitoring Fundamentals](./35-web-security-basics.md)
-- [Detecting Web Attacks](./36-web-attack-detection.md)
-- [Detecting Web Shells](./37-web-shell-detection.md)
-- [Detecting Web DDoS](./38-web-ddos-detection.md)
-- [Malicious Upload Investigation](./39-malicious-upload-investigation.md)
+## Rooms in This Module
 
-## Portfolio Evidence to Add
+| # | Room | Notes |
+|---|---|---|
+| 40 | Web Security Essentials | [View](./40-web-security-essentials.md) |
+| 41 | Detecting Web Attacks | [View](./41-detecting-web-attacks.md) |
+| 42 | Detecting Web Shells | [View](./42-detecting-web-shells.md) |
+| 43 | Detecting Web DDoS | [View](./43-detecting-web-ddos.md) |
+| 44 | Upload and Conquer | [View](./44-upload-and-conquer.md) |
 
-For each completed room, attach sanitized observations, actual queries, a timeline, the verdict, and the reason for escalation or closure. Avoid publishing credentials or challenge flags.
+---
+
+## Module Summary
+
+This module covers web infrastructure and HTTP logging, followed by attack detection in web logs, web-shell investigations, DDoS identification and an upload-abuse SOC simulator scenario.
+
+---
+
+## Skills Covered
+
+- HTTP request, response and web-server logging
+- Web security defence in depth
+- Detection of traversal, injection and authentication abuse
+- File-system and process evidence of web shells
+- Web DDoS volume, latency and impact analysis
+- Upload abuse investigation and SOC reporting
+
+> These are original room-based study notes. Hands-on challenge results and personal investigation evidence should be added only from verified lab activity.
