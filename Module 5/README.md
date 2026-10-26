@@ -1,23 +1,36 @@
 # Module 5 — Phishing Analysis
 
-**Path:** TryHackMe SOC Level 1  
-**Learning status:** Completed (reported by learner)  
-**Documentation status:** Concept and investigation notes; individual room results not independently verified.
+Investigating suspicious emails from raw headers and message bodies through safe enrichment, authentication checks, and campaign-level response.
 
-## Notes
+---
 
-1. [Phishing Fundamentals](./22-phishing-fundamentals.md)
-2. [Email Header Analysis](./23-email-header-analysis.md)
-3. [Phishing Investigation Workflow](./24-phishing-investigation-workflow.md)
-4. [SOC Phishing Case Report Template](./25-phishing-case-report.md)
+## Rooms in This Module
 
-## Skills Developed
+| # | Room | Notes |
+|---|---|---|
+| 22 | Phishing Analysis Fundamentals | [View](./22-phishing-analysis-fundamentals.md) |
+| 23 | Phishing Emails in Action | [View](./23-phishing-emails-in-action.md) |
+| 24 | Phishing Analysis Tools | [View](./24-phishing-analysis-tools.md) |
+| 25 | Phishing Prevention | [View](./25-phishing-prevention.md) |
+| 26 | The Greenholt Phish | [View](./26-the-greenholt-phish.md) |
+| 27 | Snapped Phish-ing Line | [View](./27-snapped-phish-ing-line.md) |
+| 28 | Phishing Unfolding | [View](./28-phishing-unfolding.md) |
 
-- Analyze email headers and sender authentication results.
-- Triage links, attachments, impersonation and credential-harvesting lures.
-- Correlate email evidence with proxy, DNS, EDR and identity logs.
-- Write evidence-based verdicts and escalation notes.
+---
 
-## Important
+## Module Summary
 
-These files are original SOC revision notes, not copied TryHackMe challenge answers. Replace generic examples with sanitized observations from your own labs. The filenames are organized by topic rather than claiming exact TryHackMe room titles.
+This module takes an email from initial suspicion through header inspection, link/attachment enrichment, phishing defence, full case investigation and SOC simulator response.
+
+---
+
+## Skills Covered
+
+- Email headers, SMTP, MIME and phishing indicators
+- SPF, DKIM, DMARC and anti-phishing controls
+- URL, attachment and hash analysis
+- Identifying campaign infrastructure and recipient scope
+- Five Ws case reporting and SOC escalation
+- Live-style phishing alert investigation
+
+> These are original room-based study notes. Hands-on challenge results and personal investigation evidence should be added only from verified lab activity.
