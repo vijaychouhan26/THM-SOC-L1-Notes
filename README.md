@@ -6,7 +6,7 @@ I am documenting the path module by module — concepts, key terms, practical in
 
 > **Path:** [TryHackMe SOC Level 1](https://tryhackme.com/path/outline/blueteam)  
 > **Started:** September 2026  
-> **Current Progress:** Completed Modules 1–8; studying Windows Security Monitoring (Module 9).
+> **Current Progress:** Completed Modules 1–9, including Windows Security Monitoring; next is Linux Security Monitoring (Module 10).
 
 ---
 
@@ -22,7 +22,7 @@ I am documenting the path module by module — concepts, key terms, practical in
 | 6 | Network Traffic Analysis | ✅ Complete | [Open Module 6](./Module%206/README.md) |
 | 7 | Network Security Monitoring | ✅ Complete | [Open Module 7](./Module%207/README.md) |
 | 8 | Web Security Monitoring | ✅ Complete | [Open Module 8](./Module%208/README.md) |
-| 9 | Windows Security Monitoring | 🔄 In progress | Notes to follow |
+| 9 | Windows Security Monitoring | ✅ Complete | [Open Module 9](./Module%209/README.md) |
 | 10 | Linux Security Monitoring | ⏳ Upcoming | — |
 | 11 | Malware Concepts for SOC | ⏳ Upcoming | — |
 | 12 | Threat Analysis Tools | ⏳ Upcoming | — |
@@ -43,7 +43,8 @@ THM-SOC-L1-Notes/
 ├── Module 5/               # Phishing Analysis: 7 room notes (22–28)
 ├── Module 6/               # Network Traffic Analysis: 5 room notes (29–33)
 ├── Module 7/               # Network Security Monitoring: 6 room notes (34–39)
-└── Module 8/               # Web Security Monitoring: 5 room notes (40–44)
+├── Module 8/               # Web Security Monitoring: 5 room notes (40–44)
+└── Module 9/               # Windows Security Monitoring: 4 room notes (45–48)
 ```
 
 Each module contains a `README.md` with an ordered table of rooms and links to individual notes. Each room file covers technical concepts, defensive investigation, useful tables or commands, key terms and an analyst takeaway.
@@ -54,7 +55,7 @@ Each module contains a `README.md` with an ordered table of rooms and links to i
 
 ## What I'm Building
 
-I'm developing defensive cybersecurity skills for entry-level SOC analyst work: alert triage, phishing investigation, network traffic analysis, intrusion detection, log review, incident documentation and escalation.
+I'm developing defensive cybersecurity skills for entry-level SOC analyst work: alert triage, phishing investigation, network traffic analysis, intrusion detection, Windows event analysis, log review, incident documentation and escalation.
 
 The goal is a practical, organized reference that demonstrates how to reason through an investigation rather than only collecting room answers.
 
